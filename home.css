@@ -131,10 +131,10 @@ a{
 }
 
 .layout1 .img3{
-    width: 100%;    
-    height: auto;   
+    width: 100%;  
+    max-height: 400px;   
     max-width: 607px; 
-    padding: 30px 0 0 30px;
+    padding: 100px 0 0 30px;
 }
 
 .aside1{
@@ -148,19 +148,19 @@ a{
     height: 537px;
     position: absolute;
     opacity: 0.2;
-    bottom: 9em;
+    bottom: -2em;
     
  }
 
 #icon1 
 {
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
     
 }
 #icon2{
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
 }
   .icons{
     display: flex;
@@ -174,17 +174,15 @@ a{
     max-width: 30em;
 
  }
- .space{
-    height: 1.3em;
- }
+ 
  #title2{
     color: var(--primaryColor);
-    font-size: 3em;
+    font-size: 2em;
     font-weight: var(--largeWeight);
     
  }
  #text2{
-    font-size: 1.563em;
+    font-size: 1.2em;
     line-height: 1.8em;
     width: 20em;
     
@@ -236,8 +234,8 @@ a{
 
 .layout2 .img5{
     width: 100%;    
-    min-height: 371px;   
-    max-width: 466px; 
+    max-height: 400px;   
+    max-width: 500px;
     margin: 3em 0 0 10em;
    
 }
@@ -251,13 +249,13 @@ a{
  }
  #title3{
     color: var(--primaryColor);
-    font-size: 3em;
+    font-size: 2em;
     font-weight: var(--largeWeight);
     width: 12em;
     
  }
  #text3{
-    font-size: 1.563em;
+    font-size: 1.2em;
     line-height: 1.8em;
     width: 24em;
     
